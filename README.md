@@ -23,8 +23,8 @@ Both apps share the same MongoDB collections, so changes made through MCP are re
 ## Repository Structure
 - Kanban_MCP: MCP server source and build output
 - Interface: Pixoo display interface
-- mets_install.py: Dependency install and MCP build helper
-- mcp.json: VS Code MCP server config
+- [mets_install.py](mets_install.py): Dependency install and MCP build helper
+- [mcp.json](.vscode/mcp.json): VS Code MCP server config
 
 ## Prerequisites
 The MongoDB containing the tasks is from one of my other project [kanban](https://github.com/0Thomas1/kanban). This program can only work on a DB with the same document.
@@ -73,7 +73,7 @@ The MongoDB containing the tasks is from one of my other project [kanban](https:
   });
   ```
 ## Evironment variables
-Create or update .env in the repositoryroot with
+Create or update .env in the repository root with
 ```.env
 MONGODB_URI=your_mongodb_connection_string
 DB_NAME=your_database_name
@@ -90,7 +90,7 @@ python3 mets_install.py
 ## Running
 
 ## MCP Capabilities
-Defined in index.ts:
+Defined in [index.ts](Kanban_MCP/src/index.ts):
 
 - Tool: create-task
 - Tool: move-task
