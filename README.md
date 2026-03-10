@@ -1,6 +1,6 @@
 # MCP-Enabled Task System (MTS)
 
-METS synchronizes a MongoDB-backed Kanban workflow across two interfaces:
+MTS synchronizes a MongoDB-backed Kanban workflow across two interfaces:
 
 - An MCP server for AI-assisted task operations
 - A Pixoo 64 display that cycles through live task cards
