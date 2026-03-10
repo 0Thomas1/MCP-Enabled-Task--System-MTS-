@@ -1,0 +1,11 @@
+{
+  "chat.mcp.serverSampling": {
+    "Kanban MCP/.vscode/mcp.json: mcp-test": {
+      "allowedModels": [
+        "copilot/claude-sonnet-4",
+        "copilot/gpt-4.1",
+        "copilot/gpt-5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+pixoo
+pymongo
+requests
+dotenv
