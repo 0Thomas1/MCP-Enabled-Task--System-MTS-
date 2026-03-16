@@ -98,3 +98,18 @@ Defined in [index.ts](Kanban_MCP/src/index.ts):
 - Tool: add-tag
 - Resource: tasks://all
 - Prompt: tasks-analytics
+
+## Tech Stack
+- **Backend**: TypeScript, Node.js, MCP SDK
+- **Frontend**: Python, Pixoo API
+- **Database**: MongoDB, Mongoose
+
+## Skills Used
+- TypeScript/Node.js development
+- Python scripting
+- MongoDB and Mongoose ODM
+- MCP (Model Context Protocol) server implementation
+- REST API design
+- Device integration (Pixoo 64 API)
+- Kanban workflow patterns
+
