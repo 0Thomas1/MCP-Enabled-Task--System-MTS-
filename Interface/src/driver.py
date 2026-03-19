@@ -9,7 +9,6 @@ username = util.enum['USER_NAME']
 # init_pixoo() function
 def init_pixoo():
   pixoo = PixooDriver(pixoo_ip)
-  print(pixoo_ip)
   return pixoo
 
 # init_model() function
